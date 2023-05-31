@@ -26,15 +26,20 @@ export default function Home() {
         </p>
       </div>
 
-      <div className='text-5xl flex justify-center text-gray-600'>
+      <div className='text-5xl gap-16 py-3 flex justify-center text-gray-600'>
         <AiFillLinkedin />
         <AiFillGithub />
       </div>
-
-      <div className='relative mx-auto '>
+  
+      <div className='p-1 bg-gradient-to-tr from-indigo-700 to-fuchsia-700 rounded-full w-80 h-80 mt-20 mx-auto relative'>
+      <div className='rounded-full overflow-hidden w-full h-full'>
         <Image
           src={soup}
+          width={320}
+          height={320}
+          className='object-cover'
         />
+         </div>
       </div>
 
       </section>
