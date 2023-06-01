@@ -22,7 +22,7 @@ export default function Home() {
         <h2 className='text-5xl py-2 text-indigo-700 font-medium'>David Campbell</h2>
         <h3 className='text-2xl py-2'>Full-Stack Developer.</h3>
         <p className='text-md py-3 leading-8'>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Recent graduate with a passion for web design and clean code. 
         </p>
       </div>
 
@@ -31,7 +31,7 @@ export default function Home() {
         <AiFillGithub />
       </div>
   
-      <div className='p-1 bg-gradient-to-tr from-indigo-700 to-fuchsia-700 rounded-full w-80 h-80 mt-20 mx-auto relative'>
+      <div className='p-1 bg-gradient-to-tr from-indigo-700 to-fuchsia-700 rounded-full w-80 h-80 mt-10 mx-auto relative'>
       <div className='rounded-full overflow-hidden w-full h-full'>
         <Image
           src={soup}
@@ -40,6 +40,15 @@ export default function Home() {
           className='object-cover'
         />
          </div>
+
+      </div>
+      </section>
+        <h3 className='text-2xl py-5'>Technologies I'm Familiar With:</h3>
+        <div className=""></div>
+        <p></p>
+      <section>
+      <div>
+
       </div>
 
       </section>
